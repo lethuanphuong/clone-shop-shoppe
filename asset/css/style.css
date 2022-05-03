@@ -652,7 +652,6 @@ body{
     display: flex;
     line-height: 34px;
     position: relative;
-    z-index: 1;
 }
 .coins::after{
     content: "";
@@ -687,6 +686,7 @@ body{
     display: none;
     animation: kfcoin ease-in .3s;
     transform-origin: top;
+    z-index: 1;
 }
 .a-z,
 .z-a{
